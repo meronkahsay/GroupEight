@@ -1,0 +1,18 @@
+Question2
+Design a system for a hotel to manage room booking, checking, and payment. Consider how to handle overlapping reservations and ensure data consistency
+Input :
+Guest name
+amount
+
+1.Make a list for rooms with its room number,price and paymentstatus. 
+2.When someone wants a room: Get their name Get entry day and leave day Go through all rooms:
+If a room is not booked assign the first available room
+6.If not tell there is no avilable room
+7.for payement: Get name and room number and amount
+8.if the amount is equal to the price update the room status to paid
+9.if not do not assign the room
+
+Out put:
+Booking Confirmed or Rejected
+Room assigned
+payment status
