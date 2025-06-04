@@ -1,0 +1,22 @@
+Question1 
+Build a system to keep track of personal connections and their contact details. the system should allow users to add new contacts , modify existing ones, remove contacts, and retrieve a contact's details without specifying how to store the contacts.
+
+Input :
+contact details
+
+1.Create list of objects that contains the contact details
+
+2. To record a new contact, receive the contact’s details as input and include them in the contact details
+
+3. To update a contact:
+ – Input the details to be changed and the new information 
+ – If the contact appears in the collection, replace the old entry with the new one
+
+4. To remove a contact:
+ – Specify which contact to remove 
+ – If present, eliminate the contact from the contact details
+ 
+5. To display all stored contacts, present the entire contact details
+
+output:
+Updated contact details
