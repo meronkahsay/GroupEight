@@ -4,15 +4,11 @@ Input :
 Guest name
 amount
 
-1.Make a list for rooms with its room number,price and paymentstatus. 
-2.When someone wants a room: Get their name Get entry day and leave day Go through all rooms:
-If a room is not booked assign the first available room
-6.If not tell there is no avilable room
-7.for payement: Get name and room number and amount
-8.if the amount is equal to the price update the room status to paid
-9.if not do not assign the room
+1. Create a hashmap of rooms with their room number, price. 
+2. Record the name, entry day, and leave day of the guest.
+3. For each room, if a room is not booked and if the amount is equal to the price of the room
+5. Book that specific room for the Guest. 
+6. If not, there is no available room
 
-Out put:
-Booking Confirmed or Rejected
-Room assigned
-payment status
+Output:
+Room assigned or booking rejection
