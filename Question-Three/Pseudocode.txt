@@ -4,14 +4,15 @@ Peak and off-peak hours
 Special event dates
 
 process
-1. Create a list of buses
+1. Create a hashmap of buses with their availability
 2. Create a list of special events 
-3. Create a list of maintenance
+3. Create a list of buses in maintenance
 4. Create a list of bus stops
 5. If there is a bus available and it is not on the maintenance list
 6. Assign the bus to the bus stop
-7. If the current date is a special event and the time is peak time, add a new bus to the list of buses
-8. If it is off-peak time, add the buses to the maintenance list
+7. If the current date is a special event or the time is peak time.
+8. Repeat steps 5 to 6 until no bus is available.
+9. If it is off-peak time, add the buses to the maintenance list.
 
 output
-scheduled buses
+Assigned bus to a bus stop
