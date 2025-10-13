@@ -3,6 +3,7 @@ let rooms = [
     { number: 102, price: 150, isBooked: false, isPaid: false, guestName: null },
     { number: 103, price: 200, isBooked: false, isPaid: false, guestName: null }
 ];
+
 let guestName = "Gladwin";
 let paymentAmount = 100;
 let availableRoom = rooms.find(room => !room.isBooked && room.price === paymentAmount);
